@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Entity Asteroids</title>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<style>
+* {
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+
+#container {
+	/*width:100%;
+	height:100%;*/
+	width:800px;
+	height:600px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="FlashID">
+  <param name="movie" value="entity_asteroids.swf">
+  <param name="quality" value="high">
+  <param name="wmode" value="opaque">
+  <param name="allowFullScreen" value="true" />
+  <param name="swfversion" value="10.0.0.0">
+  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf">
+  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="entity_asteroids.swf" width="100%" height="100%">
+    <!--<![endif]-->
+    <param name="quality" value="high">
+    <param name="wmode" value="opaque">
+    <param name="allowFullScreen" value="true" />
+    <param name="swfversion" value="10.0.0.0">
+    <param name="expressinstall" value="Scripts/expressInstall.swf">
+    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+    <div>
+     Try this on a computer not a walkman!
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</div>
+<div>
+<p>Arrows to move, Z to shoot.</p>
+
+</div>
+</body>
+</html>

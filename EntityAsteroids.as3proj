@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\entity_asteroids.swf" />
+    <movie fps="30" />
+    <movie width="800" />
+    <movie height="600" />
+    <movie version="10" />
+    <movie minorVersion="0" />
+    <movie platform="Flash Player" />
+    <movie background="#000000" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="-use-network=false" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <element path="KnightExport.swc" />
+    <element path="OrkExport.swc" />
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <element path="LevelExample.swc" />
+    <element path="PlasticFairytaleCS4.swc" />
+    <element path="Gui.swc" />
+    <element path="Liono.swc" />
+    <element path="Panthro.swc" />
+    <element path="Cheetara.swc" />
+    <element path="Sounds.swc" />
+    <element path="Tygra.swc" />
+    <element path="Menus.swc" />
+    <element path="Preloader.swc" />
+    <element path="GreenLizard.swc" />
+    <element path="Slithe.swc" />
+    <element path="ThundertankAssets.swc" />
+    <element path="Levels.swc" />
+    <element path="Thundertank.swc" />
+    <element path="MineLevels.swc" />
+    <element path="ForestLevels.swc" />
+    <element path="Effects.swc" />
+    <element path="MineLizard.swc" />
+    <element path="TowerLizard.swc" />
+    <element path="TowerLevels.swc" />
+    <element path="MummRa.swc" />
+    <element path="thundercats_introduction.swc" />
+    <element path="thundercats_splash1.swc" />
+    <element path="thundercats_openings_movieclips.swc" />
+    <element path="lib\DConsole2.swc" />
+    <element path="lib\Flamingo.swc" />
+    <element path="lib\TheMiner_en.swc" />
+    <element path="lib\SoundEffects.swc" />
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\asteroids\AsteroidsGame.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="ExternalPlayer" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>
